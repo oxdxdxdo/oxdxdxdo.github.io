@@ -1757,7 +1757,7 @@ ul, li {
     height: 70px;
     border: 3px solid #00caca;
     border-radius: 50%;
-    background: url("img/iconmonstr-mail.svg");
+    background: url("/img/iconmonstr-mail.svg");
 }
 
     .ITEMS-ICON img {
