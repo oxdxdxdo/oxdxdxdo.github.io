@@ -25,10 +25,10 @@ var Stats = function () {
 	//fpsText.innerHTML = 'FPS';
 	//fpsDiv.appendChild( fpsText );
 
-	//var fpsGraph = document.createElement( 'div' );
-	//fpsGraph.id = 'fpsGraph';
-	//fpsGraph.style.cssText = 'position:relative;width:74px;height:30px;background-color:#0ff';
-	//fpsDiv.appendChild( fpsGraph );
+	// var fpsGraph = document.createElement( 'div' );
+	// fpsGraph.id = 'fpsGraph';
+	// fpsGraph.style.cssText = 'position:relative;width:74px;height:30px;background-color:#0ff';
+	// fpsDiv.appendChild( fpsGraph );
 
 	// while ( fpsGraph.children.length < 74 ) {
 
@@ -121,7 +121,7 @@ var Stats = function () {
 				fpsMax = Math.max( fpsMax, fps );
 
 				fpsText.textContent = fps + ' FPS (' + fpsMin + '-' + fpsMax + ')';
-				updateGraph( fpsGraph, Math.min( 30, 30 - ( fps / 100 ) * 30 ) );
+				// updateGraph( fpsGraph, Math.min( 30, 30 - ( fps / 100 ) * 30 ) );
 
 				prevTime = time;
 				frames = 0;
