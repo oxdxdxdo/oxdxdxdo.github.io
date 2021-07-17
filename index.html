@@ -543,6 +543,11 @@
 
     <script src="js/particles.js" type="text/javascript"></script>
     <script src="js/app.js" type="text/javascript"></script>
+    <script>
+        target.addEventListenr('touch',function(){
+        }, {passive: false});
+    </script>
+
     <!-- <script src="js/stats.js" type="text/javascript"></script>
     <script>
         var count_particles, stats, update;
@@ -557,7 +562,7 @@
             stats.begin();
             stats.end();
             if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
-                count_particles.innerText = window.pJSDom[0].pJS.particles.array.count_particles;
+                count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
             }
             requestAnimationFrame(update);
         };
