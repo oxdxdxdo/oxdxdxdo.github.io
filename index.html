@@ -1,10 +1,568 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Test</title>
-  </head>
-  <body>
-    <h1>Testing</h1>
-  </body>
+﻿<!DOCTYPE html>
+<html lang="en" class="no-js">
+<!-- BEGIN HEAD -->
+<head>
+    <meta charset="utf-8" />
+    <title>Eddy Lin</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="" name="description" />
+    <meta content="" name="author" />
+    <!-- GLOBAL MANDATORY STYLES -->
+    <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css" />
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <!-- PAGE LEVEL PLUGIN STYLES -->
+    <link href="css/animate.css" rel="stylesheet">
+    <!-- THEME STYLES -->
+    <link href="css/layout.css" rel="stylesheet" type="text/css" />
+    <!-- Favicon -->
+    <!--<link rel="shortcut icon" href="favicon.ico" />-->
+</head>
+<!-- END HEAD -->
+<!-- BODY -->
+<body id="body" data-spy="scroll" data-target=".header">
+    <!--========== HEADER ==========-->
+    <header class="header navbar-fixed-top">
+        <!-- Navbar -->
+        <nav class="navbar" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="menu-container js_nav-item">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="toggle-icon"></span>
+                    </button>
+                    <!-- Logo -->
+                    <div class="logo">
+                        <a class="logo-wrap" href="#body">
+                            <span class="logo-img logo-img-main">Eddy <span style="color:#00caca;">CV</span></span>
+                            <span class="logo-img logo-img-active">Eddy <span style="color:#00caca;">CV</span></span>
+                        </a>
+                    </div>
+                    <!-- End Logo -->
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse nav-collapse">
+                    <div class="menu-container">
+                        <ul class="nav navbar-nav navbar-nav-right">
+                            <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#body">About</a></li>
+                            <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#skills">Skills</a></li>
+                            <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#experience">Experience</a></li>
+                            <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#work">Works</a></li>
+                            <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- End Navbar Collapse -->
+            </div>
+        </nav>
+        <!-- Navbar -->
+    </header>
+    <!--========== END HEADER ==========-->
+    <!--========== SLIDER ==========-->
+    <div class="promo-block parallax-window" style="position:relative;background-color:black;" data-parallax="scroll" data-image-src="">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="promo-block-divider">
+                        <h1 class="promo-block-title">Eddy <br /> Lin</h1>
+                        <p class="promo-block-text">UX/UI Designer &amp; Researcher</p>
+
+
+                    </div>
+                    <p style="font-size:16px;margin:0px;" class="promo-block-text">
+                        7 years design experience, 3+ in APP UI & UX and 4+ in space.
+                    </p>
+                    <p style="font-size:16px;margin:0px;" class="promo-block-text">
+                        Willing to embrace any kind of challenge and finding ways out to solve problem.
+                    </p>
+                    <p style="font-size:16px;margin:0px;" class="promo-block-text">
+                        Love all the beautiful things in the world.
+                    </p>
+                    <!--<ul class="list-inline">
+                        <li><a href="#" class="social-icons"><i class="icon-social-facebook"></i></a></li>
+                        <li><a href="#" class="social-icons"><i class="icon-social-twitter"></i></a></li>
+                        <li><a href="#" class="social-icons"><i class="icon-social-dribbble"></i></a></li>
+                        <li><a href="#" class="social-icons"><i class="icon-social-behance"></i></a></li>
+                        <li><a href="#" class="social-icons"><i class="icon-social-linkedin"></i></a></li>
+                    </ul>-->
+                </div>
+            </div>
+            <!--// end row -->
+        </div>
+        <div id="particles-js"></div>
+    </div>
+    <!--========== SLIDER ==========-->
+    <!--========== PAGE LAYOUT ==========-->
+    <!-- About -->
+    <div id="skills">
+        <div class="container content-lg">
+            <div class="row">
+                <div class="col-sm-3 sm-margin-b-30">
+                    <div class="text-right sm-text-left">
+                        <h2 class="margin-b-0">Sklls</h2>
+                        <p>What I am all about.</p>
+                    </div>
+                </div>
+                <div class="col-sm-8 col-sm-offset-1">
+                    <div class="margin-b-60" style="padding-left:15px;">
+                        <!--<p>I'm Alex Teseira, orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>-->
+                        <ul>
+                            <li>
+                                <p>
+                                    Proficient in design including Sketch, Photoshop, Illustrator, After Effect, Premiere, 3D MAX, SketchUp.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Basic skills in HTML, CSS and Javascript.
+                                </p>
+
+                            </li>
+                            <li>
+                                <p>
+                                    Proficient in Management, office software, meeting minutes recording, schedule planning.
+                                </p>
+
+                            </li>
+                            <li>
+                                <p>
+                                    Excellent organization, self-motivation and time management.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Progress Box -->
+                    <div class="progress-box">
+                        <h5>PHOTOSHOP <span class="color-heading pull-right">95%</span></h5>
+                        <div class="progress">
+                            <div class="progress-bar bg-color-base" role="progressbar" data-width="95"></div>
+                        </div>
+                    </div>
+                    <div class="progress-box">
+                        <h5>ILLUSTRATOR <span class="color-heading pull-right">90%</span></h5>
+                        <div class="progress">
+                            <div class="progress-bar bg-color-base" role="progressbar" data-width="90"></div>
+                        </div>
+                    </div>
+                    <div class="progress-box">
+                        <h5>SKETCH <span class="color-heading pull-right">90%</span></h5>
+                        <div class="progress">
+                            <div class="progress-bar bg-color-base" role="progressbar" data-width="90"></div>
+                        </div>
+                    </div>
+                    <div class="progress-box">
+                        <h5>HTML&CSS <span class="color-heading pull-right">75%</span></h5>
+                        <div class="progress">
+                            <div class="progress-bar bg-color-base" role="progressbar" data-width="75"></div>
+                        </div>
+                    </div>
+                    <div class="progress-box">
+                        <h5>BOOTSTRAP <span class="color-heading pull-right">70%</span></h5>
+                        <div class="progress">
+                            <div class="progress-bar bg-color-base" role="progressbar" data-width="70"></div>
+                        </div>
+                    </div>
+                    <div class="progress-box">
+                        <h5>PROTOTYPING <span class="color-heading pull-right">85%</span></h5>
+                        <div class="progress">
+                            <div class="progress-bar bg-color-base" role="progressbar" data-width="85"></div>
+                        </div>
+                    </div>
+                    <div class="progress-box">
+                        <h5>3DMAX <span class="color-heading pull-right">95%</span></h5>
+                        <div class="progress">
+                            <div class="progress-bar bg-color-base" role="progressbar" data-width="95"></div>
+                        </div>
+                    </div>
+                    <div class="progress-box">
+                        <h5>PREMIERE <span class="color-heading pull-right">80%</span></h5>
+                        <div class="progress">
+                            <div class="progress-bar bg-color-base" role="progressbar" data-width="80"></div>
+                        </div>
+                    </div>
+                    <div class="progress-box">
+                        <h5>AFTEREFEECT <span class="color-heading pull-right">70%</span></h5>
+                        <div class="progress">
+                            <div class="progress-bar bg-color-base" role="progressbar" data-width="70"></div>
+                        </div>
+                    </div>
+
+                    <!-- End Progress Box -->
+                </div>
+                <!--// end row -->
+            </div>
+
+
+
+        </div>
+    </div>
+    <div class="skll-box">
+        <div class="row row-space-2 margin-b-4">
+            <div class="col-md-4 md-margin-b-4">
+                <div class="service bg-color-skillbox wow zoomIn">
+                    <div class="service-element">
+                        <i class="service-icon icon-chemistry  color-white"></i>
+                    </div>
+                    <div class="service-info">
+                        <h3 class="color-white">Creativity</h3>
+                        <p class="color-white margin-b-5">My brain is my creating playground.</p>
+                    </div>
+                    <a href="javascript:void(0)" class="content-wrapper-link"></a>
+                </div>
+            </div>
+            <div class="col-md-4 md-margin-b-4">
+                <div class="service bg-color-skillbox wow zoomIn" data-height="height" data-wow-duration=".3" data-wow-delay=".1s">
+                    <div class="service-element">
+                        <i class="service-icon color-white icon-bubbles"></i>
+                    </div>
+                    <div class="service-info">
+                        <h3 class="color-white">Communication</h3>
+                        <p class="color-white margin-b-5">Listen first and then communicate.</p>
+                    </div>
+                    <a href="javascript:void(0)" class="content-wrapper-link"></a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="service bg-color-skillbox wow zoomIn" data-height="height">
+                    <div class="service-element">
+                        <i class="service-icon icon-puzzle color-white"></i>
+                    </div>
+                    <div class="service-info">
+                        <h3 class="color-white">Team Work</h3>
+                        <p class="color-white margin-b-5">Build reliability and fight together.</p>
+                    </div>
+                    <a href="javascript:void(0)" class="content-wrapper-link"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-space-2 margin-b-4">
+            <div class="col-md-4 md-margin-b-4">
+                <div class="service bg-color-skillbox wow zoomIn">
+                    <div class="service-element">
+                        <i class="service-icon icon-directions color-white"></i>
+                    </div>
+                    <div class="service-info">
+                        <h3 class="color-white">Integration</h3>
+                        <p class="color-white margin-b-5">Come up with a new idea !</p>
+                    </div>
+                    <a href="javascript:void(0)" class="content-wrapper-link"></a>
+                </div>
+            </div>
+            <div class="col-md-4 md-margin-b-4">
+                <div class="service bg-color-skillbox wow zoomIn" data-height="height" data-wow-duration=".3" data-wow-delay=".1s">
+                    <div class="service-element">
+                        <i class="service-icon color-white icon-pie-chart"></i>
+                    </div>
+                    <div class="service-info">
+                        <h3 class="color-white">Organization</h3>
+                        <p class="color-white margin-b-5">Make the mass organized.</p>
+                    </div>
+                    <a href="javascript:void(0)" class="content-wrapper-link"></a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="service bg-color-skillbox  wow zoomIn" data-height="height">
+                    <div class="service-element">
+                        <i class="service-icon icon-social-reddit color-white"></i>
+                    </div>
+                    <div class="service-info">
+                        <h3 class="color-white">Crisis Management</h3>
+                        <p class="color-white margin-b-5">Solve the problem with a little humor.</p>
+                    </div>
+                    <a href="javascript:void(0)" class="content-wrapper-link"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End About -->
+    <!-- Experience -->
+    <div id="experience">
+        <div class="bg-color-sky-light" data-auto-height="true">
+            <div class="container content-lg">
+                <div class="row">
+                    <div class="col-sm-3 sm-margin-b-30">
+                        <div class="text-right sm-text-left">
+                            <h2 class="margin-b-0">Experience</h2>
+                            <p>Batman would be jealous.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-8 col-sm-offset-1" >
+                        <div class="row row-space-2 margin-b-4">
+                            <div class="box-contatin">
+                                <div class="number-line"></div>
+
+                                <div class="experience-box">
+                                    <div class="number">1</div>
+                                    <h4>ThinkPower-Info</h4>
+                                    <h5><span style="color:#515769;font-weight:bold; font-style:italic;">Design Manager</span> － Jun 2017 - Present </h5>
+                                    <p>
+                                        Rely on the learning of the past two years and cumulative design experience,
+                                        it’s my honor to have boss’s appreciation and colleagues’ affirmation with my excellent performance.
+                                        To get the promotion of team leader after joining the company, then to be design manager after.
+                                        I am responsible for the profitability and cost of the entire design department,
+                                        submit the design proposals externally ,and take the lead of designing direction to each project.
+                                    </p>
+                                    <p>
+                                        We excute for longer due to the bigger scale of projects, and have to work with other departments closely.
+                                        Intergration, communication and coordination became the most important thing besides professional.
+                                        It makes our members and projects work smoothly when we have the exact direction and instruction.
+                                        Therefore,I relearn to be an excellent leader, try hard to approach my own expectation from work.
+                                    </p>
+                                    <p>
+                                        Main Client: Taishin Bank、Fubon Bank、DBS Bank、KGI Banwith k、YuanYu Info、Innolux、China Airline、Fareastone、Department of Tourism, Kinmen County Governmen、Gudab....
+                                    </p>
+                                </div>
+
+                                <div class="experience-box">
+                                    <div class="number">2</div>
+                                    <h4>IIWA-Design</h4>
+                                    <h5><span style="color:#515769;font-weight:bold; font-style:italic;">Creative Director</span> － Apr 2015 - Apr 2017</h5>
+                                    <p>
+                                        Owning a work shop with friends, we  jumped into entrepreneurship and started an unknown journey. Our primary business was space design in early days, while we decided to change the operating direction afterwards. In the whole new business field, we tried and learned in many ways. After all, as an operator, the biggest lesson for us is to have different perspective since there are always lots of things needed to be taken into consideration.
+                                    </p>
+                                    <p>
+                                        Application software is a whole new field for me. I started to research app processes, learned to draw app interface by using new tools, and finally created our own product. We put ourselves in user’s shoes, programed from user interface and user experience. We also built a marketing web page and operated FB fan page in later period. We made everything on our own from programing, designing, executing, and marketing and received positive feedback from users. It was an unique and special experience for me.
+                                        2016.08.06 The first own product iOS App <a style="color:#00caca;" href="http://landing-page.keeprice-app.com/">Keeprice - 管價格</a>  has been sell，committed to solving the troubles of consumer during shopping.
+                                        Keeprice  on <a style="color:#00caca;" href="https://itunes.apple.com/tw/app/keeprice-guan-jia-ge/id1078845708?l=zh&mt=8">iTunes Store</a>
+                                    </p>
+                                </div>
+
+                                <div class="experience-box">
+                                    <div class="number">3</div>
+                                    <h4>Noir Space</h4>
+                                    <h5><span style="color:#515769;font-weight:bold; font-style:italic;">Senior Designer</span>－Aug 2014 - Jan 2015</h5>
+                                    <p>
+                                        In Commercial Space Department, I am good at doing Event & Exhibition Space and Display. I came up with the design concept from my experience and skills and built a communicative bridge between brand and customers, bringing both beautiful and touching design to customers. In the meantime, I had the opportunity to cooperate with Interior Design Department, learning client aspect, working process, design method, and different application and usage on different material.
+                                    </p>
+                                    <p>
+                                        Main Client : Rolls-Royce、BMW、Macallan、Heineken、Taiger、Singapore Bank、Yahoo....etc.
+                                    </p>
+                                </div>
+
+                                <div class="experience-box">
+                                    <div class="number">4</div>
+                                    <h4>IAACT</h4>
+                                    <h5><span style="color:#515769;font-weight:bold; font-style:italic;">Design Deputy Director</span>－Apr 2014 - Jul 2014</h5>
+                                    <p>
+                                        Being an outside manager in IAACT, I was brought in to solve the common problem of outsourcing design case. As a middle manager for the first time, although in the professional field, I am able to reach the expectation from company, there’s still a lot for me to improve while interacting and coordinating with other departments. To maintain a good cooperating condition among superiors, subordinates, and other departments. To supervisors, you need to finish the given task and strive for welfare for department. To subordinates, you are responsible for keeping their passion on and enhance internal cohesion. To other departments, you need to have a good communication and coordination with one another.
+                                    </p>
+                                    <p>
+                                        Main Client : Yahoo、Lexus、Subaru、Mitsubishi Motors、Mister Donut ....etc.
+                                    </p>
+                                </div>
+
+                            </div>
+
+                            <div class="experience-box">
+                                <div class="number">5</div>
+                                <h4>Marui Space Creativity & Advertising</h4>
+                                <h5><span style="color:#515769;font-weight:bold; font-style:italic;">Senior Creative Designer</span>－ Nov 2011 - Apr 2014</h5>
+                                <p>
+                                    After graduating from Shih Chien University, I entered Marui Space Creativity & Advertising, the leading company in activity space industry. From client communication, demand analysis, creative ideas, 3D model and simulation drawing, proposing, reviewing, finalizing, detailed construction drawing, and construction of contracting out and supervising, I gradually built a strong basis and enhanced my skills and ability. Making all efforts in the designing field, I was promoted to be a senior designer and  be in charge of training new employers and sharing my working experience. In addition, owing to my earnest and hard-working attitude, I also won clients’ favor and be assigned by well-known international brands.
+                                </p>
+                                <p>
+                                    I was committed to event planning, VIP party, boutique, space arrangement, visual design, execution of fashion show, including luxury watches, cars, and cosmetics.
+                                </p>
+                                <p>
+                                    Main Client： Chanel、Piaget、Jaeger、IWC、Chopard、PANERAI、BMW、MINI、ADIDAS、PUMA、TOD'S、RIMOWA、CASIO....etc.
+                                </p>
+                            </div>
+                        </div>
+                        <!--// end row -->
+                    </div>
+                </div>
+                <!--// end row -->
+            </div>
+        </div>
+    </div>
+    <!-- End Experience -->
+    <!-- Work -->
+    <div id="work">
+        <div class="container content-lg">
+            <div class="row">
+                <div class="col-sm-3 sm-margin-b-30">
+                    <div class="text-right sm-text-left">
+                        <h2 class="margin-b-0">Works</h2>
+                        <p>I build the real value.</p>
+                    </div>
+                </div>
+                <div class="col-sm-8 col-sm-offset-1">
+                    <div class="row row-0-gutter">
+                        <!-- start portfolio item -->
+                        <div class="col-md-6 col-0-gutter" style="padding:0px;">
+                            <div class="ot-portfolio-item">
+                                <figure class="effect-bubba">
+                                    <img src="img/Output/works-01.png" alt="img01" class="img-responsive" />
+                                    <figcaption>
+                                        <h2 style="font-size:36px;">APP</h2>
+                                        <p>UX/UI/Graphic</p>
+                                        <a href="UIprojects.html">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        <!-- end portfolio uitem -->
+                        <!-- start portfolio item -->
+                        <div class="col-md-6 col-0-gutter" style="padding:0px;">
+                            <div class="ot-portfolio-item">
+                                <figure class="effect-bubba">
+                                    <img src="img/Output/works-02.png" alt="img02" class="img-responsive" />
+                                    <figcaption>
+                                        <h2 style="font-size:36px;">WEB</h2>
+                                        <p>UX/UI/Infogarpthic</p>
+                                        <a href="WEBprojects.html">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        <!-- end portfolio item -->
+                    </div>
+                    <div class="row row-0-gutter">
+                        <!-- start portfolio item -->
+                        <div class="col-md-6 col-0-gutter" style="padding:0px;">
+                            <div class="ot-portfolio-item">
+                                <figure class="effect-bubba">
+                                    <img src="img/Output/works-07.png" alt="img03" class="img-responsive" />
+                                    <figcaption>
+                                        <h2 style="font-size:36px;">EVENT</h2>
+                                        <p>Branding/Key Visual/3D Simulation</p>
+                                        <a href="EVENTworks.html">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        <!-- end portfolio item -->
+                        <!-- start portfolio item -->
+                        <div class="col-md-6 col-0-gutter" style="padding:0px;">
+                            <div class="ot-portfolio-item">
+                                <figure class="effect-bubba">
+                                    <img src="img/Output/works-03.png" alt="img06" class="img-responsive" />
+                                    <figcaption>
+                                        <h2 style="font-size:36px;">SPACE</h2>
+                                        <p>Mix & Match</p>
+                                        <a href="SPACEworks.html">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        <!-- end portfolio item -->
+                    </div>
+                    <div class="row row-0-gutter">
+                        <!-- start portfolio item -->
+                        <div class="col-md-6 col-0-gutter" style="padding:0px;">
+                            <div class="ot-portfolio-item">
+                                <figure class="effect-bubba">
+                                    <img src="img/Output/works-05.png" alt="img05" class="img-responsive" />
+                                    <figcaption>
+                                        <h2 style="font-size:36px;">PHOTOGRAPHY</h2>
+                                        <p>Landscape/Portrait</p>
+                                        <a href="PHOTOGRAPHYworks.html">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        <!-- end portfolio item -->
+                        <!-- start portfolio item -->
+                        <div class="col-md-6 col-0-gutter" style="padding:0px;">
+                            <div class="ot-portfolio-item">
+                                <figure class="effect-bubba">
+                                    <img src="img/Output/works-04.png" alt="img04" class="img-responsive" />
+                                    <figcaption>
+                                        <h2 style="font-size:36px;">VISUAL</h2>
+                                        <p>Branding</p>
+                                        <a href="OTHERworks.html">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        <!-- end portfolio item -->
+                    </div>
+                </div>
+            </div>
+            <!--// end row -->
+        </div>
+    </div>
+    <!-- End Work -->
+    <!-- Contact -->
+    <div id="contact">
+        <div class="CONTENT">
+            <p class="W-HOPE">Contact</p>
+            <p class="W-TH">oxdxdxdo@gmail.com</p>
+            <p class="W-TH">(+886) 970-456195</p>
+            <ul class="LINK">
+                <li class="ITEMS ">
+                    <div class="ITEMS-ICON ">
+                        <a href="mailto:oxdxdxdo@gmail.com?subject=邀請" title="Send Email">
+                            <img src="img/iconmonstr-mail.svg" width="50" height="50" />
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- End Contact -->
+    <!--========== END PAGE LAYOUT ==========-->
+    <!--========== FOOTER ==========-->
+    <footer class="footer">
+        <div class="content container">
+            <div class="row">
+                <div>
+                    <p style="text-align:center;">Copyright Ⓒ 2018 by Eddy Lin</p>
+                </div>
+            </div>
+            <!--// end row -->
+        </div>
+    </footer>
+    <!--========== END FOOTER ==========-->
+    <!-- Back To Top -->
+    <a href="javascript:void(0);" class="js-back-to-top back-to-top"><img width="30" height="30" src="img/top.png" /></a>
+    <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+    <!-- CORE PLUGINS -->
+    <script src="vendor/jquery.min.js" type="text/javascript"></script>
+    <script src="vendor/jquery-migrate.min.js" type="text/javascript"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <!-- PAGE LEVEL PLUGINS -->
+    <script src="vendor/jquery.easing.js" type="text/javascript"></script>
+    <script src="vendor/jquery.back-to-top.js" type="text/javascript"></script>
+    <script src="vendor/jquery.smooth-scroll.js" type="text/javascript"></script>
+    <script src="vendor/jquery.wow.min.js" type="text/javascript"></script>
+    <script src="vendor/jquery.parallax.min.js" type="text/javascript"></script>
+    <script src="vendor/jquery.appear.js" type="text/javascript"></script>
+    <script src="vendor/masonry/jquery.masonry.pkgd.min.js" type="text/javascript"></script>
+    <script src="vendor/masonry/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+    <!-- PAGE LEVEL SCRIPTS -->
+    <script src="js/layout.min.js" type="text/javascript"></script>
+    <script src="js/components/progress-bar.min.js" type="text/javascript"></script>
+    <script src="js/components/masonry.min.js" type="text/javascript"></script>
+    <script src="js/components/wow.min.js" type="text/javascript"></script>
+
+
+    <script src="js/particles.js" type="text/javascript"></script>
+    <script src="js/app.js" type="text/javascript"></script>
+    <script src="js/stats.js" type="text/javascript"></script>
+    <script>
+        var count_particles, stats, update;
+        stats = new Stats;
+        stats.setMode(0);
+        stats.domElement.style.position = 'absolute';
+        stats.domElement.style.left = '0px';
+        stats.domElement.style.top = '0px';
+        document.body.appendChild(stats.domElement);
+        count_particles = document.querySelector('.js-count-particles');
+        update = function () {
+            stats.begin();
+            stats.end();
+            if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+                count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+            }
+            requestAnimationFrame(update);
+        };
+        requestAnimationFrame(update);
+    </script>
+</body>
+<!-- END BODY -->
 </html>

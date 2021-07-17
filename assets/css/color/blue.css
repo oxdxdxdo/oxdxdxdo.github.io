@@ -1,0 +1,153 @@
+
+
+
+
+
+
+
+
+.navbar-default .navbar-brand {
+    color: #00caca;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand.active {
+    color: #00caca;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #00caca;
+    background-color: #00caca;
+}
+
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+    outline: 0;
+    color: #00caca;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #00caca;
+}
+
+.navbar-default .navbar-nav>.active>a {
+    background-color: #00caca;
+}
+
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    background-color: #00caca;
+}
+
+.menu-wrap a:hover,
+.menu-wrap a:focus {
+	color: #00caca;
+}
+
+.menu-wrap .logo {
+    color: #00caca;
+}
+
+.menu-button {
+    background: #00caca;
+}
+
+.header .intro-text h1 span {
+    color: #00caca;
+}
+
+.main-title strong {
+    color: #00caca;
+}
+
+.portfolio-caption a i {
+    color: #00caca;
+}
+
+
+.welcome-section:hover .border {
+    border-color: #00caca;
+}
+
+.welcome-section:hover h4 {
+    color: #00caca;
+}
+
+.about-text li i {
+    color: #00caca;
+}
+
+.about-us-section-2 .carousel-indicators li,
+.project-image .carousel-indicators li {
+	border: 2px solid #00caca !important;
+}
+
+.about-us-section-2 .carousel-indicators .active,
+.project-image .carousel-indicators .active {
+	background-color: #00caca;
+}
+
+.owl-theme .owl-controls .owl-buttons div {
+	background: #00caca;
+}
+
+
+.team-member .team-details {
+    background-color: rgba(40, 171, 227, 0.8);
+}
+
+.owl-theme .owl-controls .owl-page.active{
+    background-color: #00caca;
+}
+
+.contact .form-control:focus {
+    border-color: #00caca;
+    box-shadow: none;
+}
+
+
+
+.team-details li a {
+    background: #00caca;
+}
+
+.progress-bar {
+    background: #00caca;
+}
+
+
+.pricing-tables .pricing-table.highlight-plan .plan-name {
+    background: #00caca;
+}
+
+.pricing-tables .pricing-table.highlight-plan .plan-signup {
+    background: #00caca;
+}
+
+
+#main-slide .slider-content h1 strong {
+    color: #00caca;
+}
+
+.latest-post .post-details .date {
+    background: rgba(40, 171, 227, 0.8);
+}
+
+.custom-tab .nav-tabs.nav-justified {
+    background: #00caca;
+}
+
+.plan-name {
+    background: #00caca;
+}
+
+.plan-signup {
+    background: #00caca;
+}
+
+.dot1, .dot2 {
+    background-color: #00caca;
+}
