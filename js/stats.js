@@ -30,13 +30,13 @@ var Stats = function () {
 	//fpsGraph.style.cssText = 'position:relative;width:74px;height:30px;background-color:#0ff';
 	//fpsDiv.appendChild( fpsGraph );
 
-	while ( fpsGraph.children.length < 74 ) {
+	// while ( fpsGraph.children.length < 74 ) {
 
-		var bar = document.createElement( 'span' );
-		bar.style.cssText = 'width:1px;height:30px;float:left;background-color:#113';
-		fpsGraph.appendChild( bar );
+	// 	var bar = document.createElement( 'span' );
+	// 	bar.style.cssText = 'width:1px;height:30px;float:left;background-color:#113';
+	// 	fpsGraph.appendChild( bar );
 
-	}
+	// }
 
 	var msDiv = document.createElement( 'div' );
 	msDiv.id = 'ms';
