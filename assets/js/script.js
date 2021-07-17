@@ -154,7 +154,7 @@ $ ( function () {
 		isOpen = false;
 
 	function init() {
-		initEvents();
+		//initEvents();
 	}
 
 	function initEvents() {
